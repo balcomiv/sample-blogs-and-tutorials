@@ -1,0 +1,20 @@
+{
+  "extends": "../../tslint.json",
+  "rules": {
+    "directive-selector": [
+      true,
+      "attribute",
+      "sampleBlogsAndTutorials",
+      "camelCase"
+    ],
+    "component-selector": [
+      true,
+      "element",
+      "sample-blogs-and-tutorials",
+      "kebab-case"
+    ]
+  },
+  "linterOptions": {
+    "exclude": ["!**/*"]
+  }
+}
