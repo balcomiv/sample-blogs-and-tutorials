@@ -32,3 +32,9 @@
 ## Composit Components
 
 - https://medium.com/@liutingchun_95744/angular-four-approaches-to-implement-interdependent-components-769e9b39fd96
+
+## Objects, Prototypes, && Rest/Spread Properties
+
+### Shallow clone (spread/obj-assign) don't preserve prototype
+
+- https://dmitripavlutin.com/object-rest-spread-properties-javascript/
