@@ -38,3 +38,17 @@
 ### Shallow clone (spread/obj-assign) don't preserve prototype
 
 - https://dmitripavlutin.com/object-rest-spread-properties-javascript/
+
+## Directives
+
+### Utilizing @HostBinding to set host @input
+
+- https://github.com/angular/angular/issues/13776
+
+- https://angular.io/api/core/Host
+
+### Proposal: Need ability to add directives to host elements in component declaration.
+
+- https://github.com/angular/angular/issues/8785
+- https://plnkr.co/edit/TCagW8vOPrqSiOT9Oztf?preview (example of how to handle at this moment)
+- https://angular.io/guide/roadmap#support-adding-directives-to-host-elements
