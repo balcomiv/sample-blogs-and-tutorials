@@ -39,6 +39,12 @@
 
 - https://dmitripavlutin.com/object-rest-spread-properties-javascript/
 
+## Strongly Typed Forms
+
+- https://itnext.io/angular-forms-story-strong-types-ce995239abf2
+- https://timdeschryver.dev/blog/working-with-angular-forms-in-an-enterprise-environment
+- https://dev.to/maxime1992/building-scalable-robust-and-type-safe-forms-with-angular-3nf9
+
 ## Directives
 
 ### Utilizing @HostBinding to set host @input
@@ -52,3 +58,23 @@
 - https://github.com/angular/angular/issues/8785
 - https://plnkr.co/edit/TCagW8vOPrqSiOT9Oztf?preview (example of how to handle at this moment)
 - https://angular.io/guide/roadmap#support-adding-directives-to-host-elements
+
+## Writing Awesome Components (augmenting is the answer)
+
+- https://blog.bitsrc.io/the-principles-for-writing-awesome-angular-components-10e45f9ae77e
+- https://www.youtube.com/watch?v=0BikjL858OQ (thoughtful component design)
+
+## Container Presentation
+
+- https://blog.profanis.me/blog/smart-dumb-in-nested-reactive-forms
+- https://github.com/angularathens/4th-meetup-reactive-forms-with-smart-dumb-components/blob/master/Angular%20Athens%20-%20Reactive%20Forms.pdf
+
+### Not sure about this one, but interesting info
+
+- https://dev.to/maxime1992/building-scalable-robust-and-type-safe-forms-with-angular-3nf9#ngxsubform-utility-library-to-break-down-an-angular-form-into-multiple-sub-components
+
+## Functional Programming
+
+- https://vsavkin.com/functional-typescript-316f0e003dc6
+- https://blog.ploeh.dk/2016/03/18/functional-architecture-is-ports-and-adapters/
+- https://blog.ploeh.dk/2017/01/27/from-dependency-injection-to-dependency-rejection/
