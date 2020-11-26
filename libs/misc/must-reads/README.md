@@ -39,6 +39,12 @@
 
 - https://dmitripavlutin.com/object-rest-spread-properties-javascript/
 
+## ControlValueAccessor
+
+- https://stackoverflow.com/questions/59049782/angular-controlvalueaccessor-vs-input-when-to-use-what-with-forms
+
+- https://medium.com/angular-in-depth/dont-reinvent-the-wheel-when-implementing-controlvalueaccessor-a0ed4ad0fafd
+
 ## Strongly Typed Forms
 
 - https://itnext.io/angular-forms-story-strong-types-ce995239abf2
@@ -59,15 +65,21 @@
 - https://plnkr.co/edit/TCagW8vOPrqSiOT9Oztf?preview (example of how to handle at this moment)
 - https://angular.io/guide/roadmap#support-adding-directives-to-host-elements
 
+### Ref directive used in/by component
+
+- https://stackoverflow.com/questions/36345618/get-reference-to-a-directive-used-in-a-component
+
 ## Writing Awesome Components (augmenting is the answer)
 
 - https://blog.bitsrc.io/the-principles-for-writing-awesome-angular-components-10e45f9ae77e
 - https://www.youtube.com/watch?v=0BikjL858OQ (thoughtful component design)
 
-## Container Presentation
+## Container Presentation | Smart Dumb | Impure Pure
 
 - https://blog.profanis.me/blog/smart-dumb-in-nested-reactive-forms
 - https://github.com/angularathens/4th-meetup-reactive-forms-with-smart-dumb-components/blob/master/Angular%20Athens%20-%20Reactive%20Forms.pdf
+
+- https://medium.com/@jtomaszewski/how-to-write-good-composable-and-pure-components-in-angular-2-1756945c0f5b
 
 ### Not sure about this one, but interesting info
 
@@ -78,3 +90,9 @@
 - https://vsavkin.com/functional-typescript-316f0e003dc6
 - https://blog.ploeh.dk/2016/03/18/functional-architecture-is-ports-and-adapters/
 - https://blog.ploeh.dk/2017/01/27/from-dependency-injection-to-dependency-rejection/
+
+## Creating Reusable Components
+
+### NgTemplateOutlet
+
+- https://www.digitalocean.com/community/tutorials/angular-reusable-components-ngtemplateoutlet (asterix prefix and microsyntax)
