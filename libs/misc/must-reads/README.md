@@ -69,11 +69,6 @@
 
 - https://stackoverflow.com/questions/36345618/get-reference-to-a-directive-used-in-a-component
 
-## Writing Awesome Components (augmenting is the answer)
-
-- https://blog.bitsrc.io/the-principles-for-writing-awesome-angular-components-10e45f9ae77e
-- https://www.youtube.com/watch?v=0BikjL858OQ (thoughtful component design)
-
 ## Container Presentation | Smart Dumb | Impure Pure
 
 - https://blog.profanis.me/blog/smart-dumb-in-nested-reactive-forms
@@ -91,7 +86,29 @@
 - https://blog.ploeh.dk/2016/03/18/functional-architecture-is-ports-and-adapters/
 - https://blog.ploeh.dk/2017/01/27/from-dependency-injection-to-dependency-rejection/
 
-## Creating Reusable Components
+## Architecture
+
+### Angular Architecture and Best Practices
+
+- https://blog.codewithdan.com/new-pluralsight-course-angular-architecture-and-best-practices/
+- https://app.pluralsight.com/library/courses/ng-conf-19-advanced-angular-architecture-patterns-day-1/table-of-contents
+- https://github.com/DanWahlin/angular-architecture/tree/master/input-output-demo/src
+- https://github.com/DanWahlin/Angular-JumpStart
+
+### Advanced Angular Component Patterns
+
+- https://medium.com/angular-in-depth/introducing-advanced-angular-component-patterns-13e102e6bbfc
+- https://egghead.io/lessons/angular-course-overview-advanced-angular-component-patterns
+
+### Writing Awesome Components (augmenting is the answer)
+
+- https://blog.bitsrc.io/the-principles-for-writing-awesome-angular-components-10e45f9ae77e
+- https://www.youtube.com/watch?v=0BikjL858OQ (thoughtful component design)
+
+### Material Examples for Component Patterns
+
+- https://github.com/angular/components/blob/master/src/material/button/button.ts
+- https://github.com/angular/components/issues/7954 (great example of how 'mat-button' is actually a component)
 
 ### NgTemplateOutlet
 
