@@ -110,6 +110,37 @@
 - https://github.com/angular/components/blob/master/src/material/button/button.ts
 - https://github.com/angular/components/issues/7954 (great example of how 'mat-button' is actually a component)
 
-### NgTemplateOutlet
+### Misc
+
+- https://indepth.dev/posts/1171/angular-viewmodel-as-observable
+
+## NgTemplateOutlet
 
 - https://www.digitalocean.com/community/tutorials/angular-reusable-components-ngtemplateoutlet (asterix prefix and microsyntax)
+
+## Strict Checking
+
+- https://medium.com/@cyrilletuzi/typescript-strictly-typed-strict-mode-is-not-enough-40df698e2deb
+
+## Productivity
+
+- https://marketplace.visualstudio.com/items?itemName=loiane.angular-extension-pack (how I found Simon Test etc.)
+- https://medium.com/@rajaramtt/angular-style-guide-best-practices-e7ec08ad3226
+
+### Testing
+
+- https://marketplace.visualstudio.com/items?itemName=SimonTest.simontest
+
+- https://medium.com/allenhwkim/generate-angular-unit-tests-automatically-1300601ed73
+- https://github.com/allenhwkim/ngentest/blob/e7971fc488389094c9692a4bc3f36b44ee088655/index.js
+- https://medium.com/@marvinirwin/creating-typescript-with-the-typescript-compiler-ac3370701d7f
+
+## Dependency Injection
+
+- https://medium.com/@tomastrajan/total-guide-to-angular-6-dependency-injection-providedin-vs-providers-85b7a347b59f (circular dependency)
+
+## Links for Documentation
+
+https://netbasal.com/testing-observables-in-angular-a2dbbfaf5329
+
+https://blog.eyas.sh/2018/12/data-and-page-content-refresh-patterns-in-angular/
