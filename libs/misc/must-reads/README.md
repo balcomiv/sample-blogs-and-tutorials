@@ -139,8 +139,16 @@
 
 - https://medium.com/@tomastrajan/total-guide-to-angular-6-dependency-injection-providedin-vs-providers-85b7a347b59f (circular dependency)
 
+## OnPush
+
+- https://netbasal.com/a-comprehensive-guide-to-angular-onpush-change-detection-strategy-5bac493074a4
+
 ## Links for Documentation
 
 https://netbasal.com/testing-observables-in-angular-a2dbbfaf5329
 
 https://blog.eyas.sh/2018/12/data-and-page-content-refresh-patterns-in-angular/
+
+## Todo:
+
+- Anything by netbasal is worth reading

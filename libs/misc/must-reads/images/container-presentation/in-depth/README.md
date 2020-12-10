@@ -25,6 +25,11 @@
 
 - https://coggle.it/diagram/XIE3LVaBBFH2wF6H/t/angular-architecture-components-vs-presentational-components
 
+## Even More Container/Presentation links
+
+- https://scotch.io/courses/5-essential-react-concepts-to-know-before-learning-redux/presentational-and-container-component-pattern-in-react
+- https://www.dotnetsurfers.com/blog/2019/01/21/creating-container-and-presentational-components-in-angular/ (says no services) (mentions 'checkOnce' strategy?)
+
 ## Defining 'External Dependencies'
 
 - https://angular.io/guide/dependency-injection
