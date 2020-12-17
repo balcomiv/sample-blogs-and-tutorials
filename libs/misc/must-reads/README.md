@@ -1,14 +1,17 @@
-## Interface Contsructor Pattern
+## Interface Constructor Pattern
 
 - https://fettblog.eu/typescript-interface-constructor-pattern/
 
-## Prototypal Inheritence
+## Prototypal Inheritance
 
 - http://sporto.github.io/blog/2013/02/22/a-plain-english-guide-to-javascript-prototypes/
 
 ## RXJS
 
 - https://medium.com/javascript-everyday/behaviorsubject-vs-replaysubject-1-beware-of-edge-cases-b361153d9ccf
+
+- https://medium.com/@mikesnare/angular-async-pipes-beware-the-share-bcc9c1cd849d (shareReplay && async pipe)
+- https://itnext.io/the-magic-of-rxjs-sharing-operators-and-their-differences-3a03d699d255 (bad ass explanations of publish === multicast(subject) etc.)
 
 ## Either && Error Handling
 
@@ -35,6 +38,8 @@
 
 ## Objects, Prototypes, && Rest/Spread Properties
 
+- https://medium.com/@alfmohenu/rest-and-spread-parameters-in-typescript-e98db065d518
+
 ### Shallow clone (spread/obj-assign) don't preserve prototype
 
 - https://dmitripavlutin.com/object-rest-spread-properties-javascript/
@@ -59,6 +64,8 @@
 
 - https://angular.io/api/core/Host
 
+- https://fireflysemantics.medium.com/adding-classes-dynamically-with-hostbinding-ac9a43f8a9b3
+
 ### Proposal: Need ability to add directives to host elements in component declaration.
 
 - https://github.com/angular/angular/issues/8785
@@ -74,7 +81,11 @@
 - https://blog.profanis.me/blog/smart-dumb-in-nested-reactive-forms
 - https://github.com/angularathens/4th-meetup-reactive-forms-with-smart-dumb-components/blob/master/Angular%20Athens%20-%20Reactive%20Forms.pdf
 
-- https://medium.com/@jtomaszewski/how-to-write-good-composable-and-pure-components-in-angular-2-1756945c0f5b
+- https://medium.com/@jtomaszewski/how-to-write-good-composable-and-pure-components-in-angular-2-1756945c0f5b (Really good)
+
+- https://blog.angulartraining.com/component-architecture-with-angular-6f7bc9165443
+
+- https://indepth.dev/posts/1072/lean-angular-components (has stackblitz sample)
 
 ### Not sure about this one, but interesting info
 
@@ -139,9 +150,39 @@
 
 - https://medium.com/@tomastrajan/total-guide-to-angular-6-dependency-injection-providedin-vs-providers-85b7a347b59f (circular dependency)
 
-## OnPush
+## Change Detection and OnPush
 
 - https://netbasal.com/a-comprehensive-guide-to-angular-onpush-change-detection-strategy-5bac493074a4
+
+- https://www.aanchalgarg.com/2019/07/triggering-change-detection-manually-in.html
+
+### Debugging "Expression has changed after it was checked"
+
+- https://blog.angular-university.io/angular-debugging/
+
+## Control Container
+
+- https://app.pluralsight.com/course-player?courseId=482edf94-ba3f-42d1-84c2-2333992bcea1
+- https://github.com/tehfedaykin/NookPOS
+- https://nookpos.web.app/
+
+## Life Cycle Hooks
+
+- https://stackoverflow.com/questions/40817336/whats-the-difference-between-ngoninit-and-ngafterviewinit-of-angular2
+
+## Routing && Reloading
+
+- https://medium.com/@mvivek3112/reloading-components-when-change-in-route-params-angular-deed6107c6bb
+
+- https://stackoverflow.com/questions/33520043/how-to-detect-a-route-change-in-angular
+
+## Javascript
+
+- https://eloquentjavascript.net/1st_edition/chapter5.html
+
+### Misc
+
+- https://stackoverflow.com/questions/13613524/get-an-objects-class-name-at-runtime
 
 ## Links for Documentation
 
@@ -152,3 +193,5 @@ https://blog.eyas.sh/2018/12/data-and-page-content-refresh-patterns-in-angular/
 ## Todo:
 
 - Anything by netbasal is worth reading
+
+- https://www.spreaker.com/show/angular-show
