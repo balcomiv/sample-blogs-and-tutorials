@@ -32,13 +32,14 @@
 
 - https://blog.ploeh.dk/2019/01/21/some-thoughts-on-anti-patterns/
 
-## Composit Components
+## Composite Components
 
 - https://medium.com/@liutingchun_95744/angular-four-approaches-to-implement-interdependent-components-769e9b39fd96
 
 ## Objects, Prototypes, && Rest/Spread Properties
 
 - https://medium.com/@alfmohenu/rest-and-spread-parameters-in-typescript-e98db065d518
+- https://stackoverflow.com/questions/50288205/destructuring-a-function-parameter-object-and-rest
 
 ### Shallow clone (spread/obj-assign) don't preserve prototype
 
@@ -50,11 +51,12 @@
 
 - https://medium.com/angular-in-depth/dont-reinvent-the-wheel-when-implementing-controlvalueaccessor-a0ed4ad0fafd
 
-## Strongly Typed Forms
+## Strongly Typed Forms, Reactive Forms
 
 - https://itnext.io/angular-forms-story-strong-types-ce995239abf2
 - https://timdeschryver.dev/blog/working-with-angular-forms-in-an-enterprise-environment
 - https://dev.to/maxime1992/building-scalable-robust-and-type-safe-forms-with-angular-3nf9
+- [Angular Forms: Story Strong Types](https://indepth.dev/posts/1198/angular-forms-story-strong-types)
 
 ## Directives
 
@@ -99,6 +101,13 @@
 
 ## Architecture
 
+- https://dev-academy.com/angular-architecture-best-practices/
+
+### Badass Site
+
+- https://www.angulararchitects.io/en/
+- https://app.pluralsight.com/player?course=ng-conf-2020-session-12&author=ng-conf&name=ca412b03-e427-48be-b035-518d4ca84656&clip=0
+
 ### Angular Architecture and Best Practices
 
 - https://blog.codewithdan.com/new-pluralsight-course-angular-architecture-and-best-practices/
@@ -120,6 +129,14 @@
 
 - https://github.com/angular/components/blob/master/src/material/button/button.ts
 - https://github.com/angular/components/issues/7954 (great example of how 'mat-button' is actually a component)
+
+## Angular Material
+
+- https://blog.angular-university.io/angular-material-dialog/
+
+## Storybook
+
+- https://medium.com/storybookjs/storybook-6-0-1e14a2071000
 
 ### Misc
 
@@ -152,9 +169,19 @@
 
 ## Change Detection and OnPush
 
+- https://www.mokkapps.de/blog/the-last-guide-for-angular-change-detection-you-will-ever-need/
+
 - https://netbasal.com/a-comprehensive-guide-to-angular-onpush-change-detection-strategy-5bac493074a4
 
 - https://www.aanchalgarg.com/2019/07/triggering-change-detection-manually-in.html
+
+- https://stackoverflow.com/questions/41364386/whats-the-difference-between-markforcheck-and-detectchanges
+
+- https://indepth.dev/posts/1053/everything-you-need-to-know-about-change-detection-in-angular
+
+### With directives
+
+- https://github.com/angulardart/angular/issues/846 (Change detection behaviour on direct input changes and high order components)
 
 ### Debugging "Expression has changed after it was checked"
 
@@ -176,13 +203,87 @@
 
 - https://stackoverflow.com/questions/33520043/how-to-detect-a-route-change-in-angular
 
+## Dynamic Routing
+
+- https://denys.dev/2018-02-21/dynamic-routes-with-angular/
+
+- https://medium.com/@davidgolverdingen/adding-routes-dynamically-to-lazy-loaded-modules-in-angular-a8daecfaebf9
+
+## Dynamic Views
+
+- https://netbasal.com/implementing-dynamic-views-in-angular-20ae7c62fec3
+
 ## Javascript
 
 - https://eloquentjavascript.net/1st_edition/chapter5.html
 
-### Misc
+### Prototypes
+
+- [A Plain English Guide to JavaScript Prototypes](http://sporto.github.io/blog/2013/02/22/a-plain-english-guide-to-javascript-prototypes/)
+
+- [Loose Object](https://stackoverflow.com/questions/12710905/how-do-i-dynamically-assign-properties-to-an-object-in-typescript)
+
+## Typescript
+
+- [TypeScript: The constructor interface pattern](https://fettblog.eu/typescript-interface-constructor-pattern/)
+
+- [Indexing objects in TypeScript](https://dev.to/kingdaro/indexing-objects-in-typescript-1cgi)
+
+- [Flexible Error Handling w/ the Result Class | Enterprise Node.js + TypeScript](https://khalilstemmler.com/articles/enterprise-typescript-nodejs/handling-errors-result-class/)
+
+- [When to Use a Private Constructor | TypeScript OOP](https://khalilstemmler.com/blogs/typescript/when-to-use-a-private-constructor/)
+
+## Source Map
+
+- https://www.npmjs.com/package/source-map-explorer
+
+## PWA
+
+- https://itnext.io/push-notification-with-angular-net-core-a2280d18eda1
+
+- https://dev.to/thisdotmedia/how-to-add-notifications-to-your-pwa-2mmg
+
+- https://www.youtube.com/watch?v=0vSEmEdYKro
+
+- https://www.youtube.com/watch?v=G0bBLvWXBvc
+
+### Service Workers
+
+- https://www.youtube.com/watch?v=5YtNQJQu31Y (shows http-server for testing it)
+
+- https://www.youtube.com/watch?v=eoaE0M_DRFI (notifications and push)
+
+- https://www.cometchat.com/tutorials/angular-chat-push-notifications
+
+## Ivy
+
+- https://blog.ninja-squad.com/2019/05/07/what-is-angular-ivy/
+
+## Design Systems
+
+- https://clarity.design/documentation/login
+
+## Performance
+
+- [Angular Runtime Performance Guide](https://blog.oasisdigital.com/2017/angular-runtime-performance-guide/)
+
+## Misc
 
 - https://stackoverflow.com/questions/13613524/get-an-objects-class-name-at-runtime
+- https://stackblitz.com/edit/angular-clarity-design-alert-via-service?file=src%2Fglobal-alert%2Fglobal-alert.component.html
+- https://medium.com/@chen.reuven/how-use-angular-alert-clarity-component-or-others-components-programmatic-5d23629e3337
+
+- [Happens Lol - Smarter Dumb Components](https://happens.lol/posts/smarter-dumb-components/)
+
+- [Angular Resources](https://angular.io/resources?category=development)
+
+### React
+
+- [Epic React Articles](https://epicreact.dev/articles/)
+
+### Gif
+
+- https://blog.ladder.io/animated-gifs/#1omapcznt1txp6e2wum1t
 
 ## Links for Documentation
 
