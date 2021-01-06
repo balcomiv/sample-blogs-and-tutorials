@@ -13,6 +13,8 @@
 - https://medium.com/@mikesnare/angular-async-pipes-beware-the-share-bcc9c1cd849d (shareReplay && async pipe)
 - https://itnext.io/the-magic-of-rxjs-sharing-operators-and-their-differences-3a03d699d255 (bad ass explanations of publish === multicast(subject) etc.)
 
+- [Async Pipes - Beware the Share](https://medium.com/@mikesnare/angular-async-pipes-beware-the-share-bcc9c1cd849d)
+
 ## Either && Error Handling
 
 - https://spin.atomicobject.com/2018/02/23/error-either-typescript/#:~:text=Simple%20Error%20Either%20in%20TypeScript&text=We%20define%20a%20Result%20to,TypeScript%20and%20maintain%20type%20safety.&text=This%20approach%20is%20especially%20nice,t%20require%20any%20wrapping%20object.
@@ -68,6 +70,15 @@
 
 - https://fireflysemantics.medium.com/adding-classes-dynamically-with-hostbinding-ac9a43f8a9b3
 
+- [Squeezing Angular Directives](https://medium.com/angular-in-depth/squeezing-angular-directives-8ab7b1e4e3ba)
+- [Squeezing Angular Directives (Stackblitz) | structural directive patterns](https://stackblitz.com/edit/help-hint-cdimwn?file=app%2Fhelp-hint-structural-directive%2Fhelp-hint-structural.directive.ts)
+- https://stackoverflow.com/questions/46014761/how-to-access-host-component-from-directive
+
+- [How to access host component from directive](https://stackoverflow.com/questions/46014761/how-to-access-host-component-from-directive)
+- https://stackoverflow.com/questions/46014761/how-to-access-host-component-from-directive
+
+- [Multi Providers](https://blog.eduonix.com/web-programming-tutorials/learn-multi-providers-feature-angular2/)
+
 ### Proposal: Need ability to add directives to host elements in component declaration.
 
 - https://github.com/angular/angular/issues/8785
@@ -102,6 +113,12 @@
 ## Architecture
 
 - https://dev-academy.com/angular-architecture-best-practices/
+
+### Component
+
+- [Agnostic components in Angular](https://medium.com/angular-in-depth/agnostic-components-in-angular-2427923b742d)
+
+- [Polymorpheus github](https://github.com/TinkoffCreditSystems/ng-polymorpheus/blob/master/README.md)
 
 ### Badass Site
 
@@ -181,7 +198,7 @@
 
 ### With directives
 
-- https://github.com/angulardart/angular/issues/846 (Change detection behaviour on direct input changes and high order components)
+- https://github.com/angulardart/angular/issues/846 (Change detection behavior on direct input changes and high order components)
 
 ### Debugging "Expression has changed after it was checked"
 
@@ -213,6 +230,11 @@
 
 - https://netbasal.com/implementing-dynamic-views-in-angular-20ae7c62fec3
 
+## Multiple Inheritance / Mixins
+
+- https://medium.com/@leocavalcante/es6-multiple-inheritance-73a3c66d2b6b
+- https://blog.bitsrc.io/composing-angular-components-with-typescript-mixins-31e3833560f7
+
 ## Javascript
 
 - https://eloquentjavascript.net/1st_edition/chapter5.html
@@ -232,6 +254,20 @@
 - [Flexible Error Handling w/ the Result Class | Enterprise Node.js + TypeScript](https://khalilstemmler.com/articles/enterprise-typescript-nodejs/handling-errors-result-class/)
 
 - [When to Use a Private Constructor | TypeScript OOP](https://khalilstemmler.com/blogs/typescript/when-to-use-a-private-constructor/)
+
+## Editable Data Table
+
+- [Keeping It Simple: Implementing Edit-in-Place in Angular (Net Basal)](https://netbasal.com/keeping-it-simple-implementing-edit-in-place-in-angular-4fd92c4dfc70)
+
+- [Create an editable dynamic table using Angular Material](https://medium.com/@muhimasri/create-an-editable-dynamic-table-using-angular-material-590fa0c26a30)
+
+- [Inline Editable Table (Stackblitz)](https://stackblitz.com/github/vaibhavphutane/inline-editable-table-angular9?file=src%2Fapp%2Fuser-table%2Fuser-table.component.html)
+
+-[Telerik - Inline editing on row click](https://www.telerik.com/kendo-angular-ui/components/grid/editing/editing-row-click/)
+
+- ['Full row editing'. Only save changes when user commits via button (ag-grid)](https://ag-grid.zendesk.com/hc/en-us/articles/360015857852--Full-row-editing-Only-save-changes-when-user-commits-via-button)
+
+- [Infragistics full row editing](https://www.infragistics.com/products/ignite-ui-angular/angular/components/grid/row-editing)
 
 ## Source Map
 
@@ -267,6 +303,30 @@
 
 - [Angular Runtime Performance Guide](https://blog.oasisdigital.com/2017/angular-runtime-performance-guide/)
 
+- [Route fully rendered change detection](https://dev.to/herodevs/route-fully-rendered-detection-in-angular-2nh4)
+
+## Sticky, Smooth, Active Nav
+
+- https://css-tricks.com/sticky-table-of-contents-with-scrolling-active-states/
+
+- https://css-tricks.com/sticky-smooth-active-nav/
+
+- https://codepen.io/eksch/pen/xwdOeK
+
+- https://startbootstrap.com/template/scrolling-nav
+
+## Ngrx && Ngrx variations
+
+- https://blog.briebug.com/blog/introducing-ngrx-auto-entity
+
+-
+
+## UI Libs
+
+- [Taiga UI github](https://github.com/TinkoffCreditSystems/taiga-ui)
+
+- [Taiga UI](https://taiga-ui.dev/tui-tabs)
+
 ## Misc
 
 - https://stackoverflow.com/questions/13613524/get-an-objects-class-name-at-runtime
@@ -276,6 +336,16 @@
 - [Happens Lol - Smarter Dumb Components](https://happens.lol/posts/smarter-dumb-components/)
 
 - [Angular Resources](https://angular.io/resources?category=development)
+
+- [Angular Performances Part 3 - Profiling and runtime performances](https://blog.ninja-squad.com/2018/09/20/angular-performances-part-3/)
+
+- [Route to fully rendered detection](https://dev.to/herodevs/route-fully-rendered-detection-in-angular-2nh4)
+
+- [Angular 7 how to calculate the time a component take to completely load on the DOM](https://stackoverflow.com/questions/53762813/angular-7-how-to-calculate-the-time-a-component-take-to-completely-load-on-the-d)
+
+## Pre Rendering (SSR)
+
+- https://brianflove.com/2020-06-05/angular-transfer-state/
 
 ### React
 
