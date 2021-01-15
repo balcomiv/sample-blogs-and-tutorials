@@ -155,6 +155,9 @@
 
 - https://medium.com/storybookjs/storybook-6-0-1e14a2071000
 
+- [Storybook 6 Migration Guide](https://medium.com/storybookjs/storybook-6-migration-guide-200346241bb5)
+- [Storybook Migration Github (mentions storyshots)](https://github.com/storybookjs/storybook/blob/next/MIGRATION.md#rename-of-the---secure-cli-parameter-to---https)
+
 ### Misc
 
 - https://indepth.dev/posts/1171/angular-viewmodel-as-observable
@@ -304,6 +307,8 @@
 - [Angular Runtime Performance Guide](https://blog.oasisdigital.com/2017/angular-runtime-performance-guide/)
 
 - [Route fully rendered change detection](https://dev.to/herodevs/route-fully-rendered-detection-in-angular-2nh4)
+
+- [Profiling Change Detection Time with ng.profile](https://medium.com/@dmitrymogilko/profiling-angular-change-detection-c00605862b9f)
 
 ## Sticky, Smooth, Active Nav
 
