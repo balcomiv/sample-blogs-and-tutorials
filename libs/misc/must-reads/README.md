@@ -74,6 +74,8 @@
 - [Squeezing Angular Directives (Stackblitz) | structural directive patterns](https://stackblitz.com/edit/help-hint-cdimwn?file=app%2Fhelp-hint-structural-directive%2Fhelp-hint-structural.directive.ts)
 - https://stackoverflow.com/questions/46014761/how-to-access-host-component-from-directive
 
+- [My Stackblitz Example for Squeezing Directives (nice background && layout)](https://stackblitz.com/edit/help-hint-cdimwn?file=styles.scss)
+
 - [How to access host component from directive](https://stackoverflow.com/questions/46014761/how-to-access-host-component-from-directive)
 - https://stackoverflow.com/questions/46014761/how-to-access-host-component-from-directive
 
@@ -168,7 +170,7 @@
 
 ## Strict Checking
 
-- https://medium.com/@cyrilletuzi/typescript-strictly-typed-strict-mode-is-not-enough-40df698e2deb
+- [TypeScript strictly typed: strict mode is not enough](https://medium.com/@cyrilletuzi/typescript-strictly-typed-strict-mode-is-not-enough-40df698e2deb)
 
 ## Productivity
 
@@ -183,13 +185,21 @@
 - https://github.com/allenhwkim/ngentest/blob/e7971fc488389094c9692a4bc3f36b44ee088655/index.js
 - https://medium.com/@marvinirwin/creating-typescript-with-the-typescript-compiler-ac3370701d7f
 
+- [How to spyOn a value property (rather than a method)](https://stackoverflow.com/questions/20879990/how-to-spyon-a-value-property-rather-than-a-method-with-jasmine)
+
+- [Angular Asynchronous Test Patterns and Recipes](https://medium.com/@michaelericksen_12434/angular-asynchronous-test-patterns-and-recipes-202cf7d47ec7)
+
+- [A Quick Tip on Testing Observables](https://itnext.io/a-quick-tip-on-testing-observables-e2fbdebef4c)
+
 ## Dependency Injection
 
 - https://medium.com/@tomastrajan/total-guide-to-angular-6-dependency-injection-providedin-vs-providers-85b7a347b59f (circular dependency)
 
 ## Change Detection and OnPush
 
-- https://www.mokkapps.de/blog/the-last-guide-for-angular-change-detection-you-will-ever-need/
+- [The Last Guide For Angular Change Detection You'll Ever Need](https://www.mokkapps.de/blog/the-last-guide-for-angular-change-detection-you-will-ever-need/)
+
+- [Change Detection Demos (from dude above)](https://angular-change-detection-demo.netlify.app/expression-changed-demo)
 
 - https://netbasal.com/a-comprehensive-guide-to-angular-onpush-change-detection-strategy-5bac493074a4
 
@@ -258,6 +268,10 @@
 
 - [When to Use a Private Constructor | TypeScript OOP](https://khalilstemmler.com/blogs/typescript/when-to-use-a-private-constructor/)
 
+### Symbols
+
+- https://codeburst.io/a-practical-guide-to-es6-symbol-3fc90117c7ac
+
 ## Editable Data Table
 
 - [Keeping It Simple: Implementing Edit-in-Place in Angular (Net Basal)](https://netbasal.com/keeping-it-simple-implementing-edit-in-place-in-angular-4fd92c4dfc70)
@@ -308,7 +322,13 @@
 
 - [Route fully rendered change detection](https://dev.to/herodevs/route-fully-rendered-detection-in-angular-2nh4)
 
-- [Profiling Change Detection Time with ng.profile](https://medium.com/@dmitrymogilko/profiling-angular-change-detection-c00605862b9f)
+- [Profiling Change Detection Time with ng.profileTimeChangeDetection](https://medium.com/@dmitrymogilko/profiling-angular-change-detection-c00605862b9f)
+- https://github.com/angular/angular/blob/8fd25d96142ba5bd6674ba19848b5477e9bbe861/packages/platform-browser/src/browser/tools/common_tools.ts
+
+- [Angular 7 how to calculate the time a component take to completely load on the DOM](https://stackoverflow.com/questions/53762813/angular-7-how-to-calculate-the-time-a-component-take-to-completely-load-on-the-d)
+
+- [Create Angular Directive to Spy on LifeCycle Hooks)[https://stackoverflow.com/questions/58120105/creating-an-directive-to-spy-angular-life-cycle-hooks]
+- https://stackblitz.com/edit/angular-4r6cm9?file=src%2Fapp%2Fcleanable.ts
 
 ## Sticky, Smooth, Active Nav
 
@@ -371,3 +391,23 @@ https://blog.eyas.sh/2018/12/data-and-page-content-refresh-patterns-in-angular/
 - Anything by netbasal is worth reading
 
 - https://www.spreaker.com/show/angular-show
+
+## Example Repos
+
+- [Angular4 Recipe Book (look for Angular recipe projects)](https://github.com/TheMasquerader/angular4-recipe-book)
+
+## Datatable Virtual Scroll with Sticky Header
+
+- []()
+
+## Design Docs
+
+- [Design Doc Example](https://docs.google.com/document/d/1kpQStAn9L-NX_1bGz_4fXNeZgerWC0mUJHun72bF240/preview)
+
+## Enum
+
+- [enum type guard](https://stackoverflow.com/questions/58278652/generic-enum-type-guard)
+
+## Configuration
+
+- https://medium.com/angularlicious/use-rxjs-to-push-configuration-to-angular-libraries-1c47830cc394
